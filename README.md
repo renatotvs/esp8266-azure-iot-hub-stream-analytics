@@ -39,14 +39,14 @@ Para executar este lab é aconselhável que tenha familiaridade com a Azure para
   
   + Resumo arquivos do laboratório:
     + **AzureIoTHubLabDemo1.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
-    + **config.h** - arquivo com as configurações: nesse arquivo é preciso configurar a connection string do Device no IoT Hub, dados de acesso a wifi, pino de comunicação com a placa nodeMCU, etc.
+    + **config.h** - arquivo com as configurações: nesse arquivo é adicionar a connection string do Device do IoT Hub criado, dados de acesso a rede wi-fi, pino de comunicação com a placa nodeMCU, etc.
     + **iotHubClient.ino** - contém método que dispara a mensagem para Azure IoT Hub.
-    + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando o potenciomento como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
+    + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando um potenciomentro como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
 
 
 ## Execução do projeto Arduino com a placa NodeMCU
 
-+ Configurar a placa e porta para execução:
++ Selecionar a placa e porta para execução:
 
 ![image](https://user-images.githubusercontent.com/42357180/160689100-543ab7ad-78a1-4057-b45a-d86424398301.png)
 
