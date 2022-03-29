@@ -60,5 +60,5 @@ Visualização do arquivo json
 **Resumo e Dicas**
 
 Fique a vontade para mudar o parãmetro de configuração do tempo de 3 segundos ou mesmo incluir novos componentes de medição.
-Esse laboratório é apenas uma ideia de como integrar a placa NodeMCU para enviar medições ao Azure IoT Hub.
+Esse laboratório é apenas uma ideia de como integrar a placa NodeMCU com Azure IoT Hub.
 É possível aplicar a diversos cenários da internet das coisas (iot) como coleta de sensores, telemetria, etc.
