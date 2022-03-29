@@ -79,7 +79,7 @@ Abaixo mostra o número de eventos lidos e integradas ao blob storage.
 ![image](https://user-images.githubusercontent.com/42357180/160661942-2bf770f0-9d06-4bb5-963c-777f8be36767.png)
 
 **Blob Storage - container**
-No container é armazenado um arquivo .json de forma incremental. Sempre que o houver uma nova integração com o IoT Hub, será processado pelo Stream Analytics Job até chegar aqui. o Arquivo é feito esse incremento até que ele tenha 100MB. Após isso será gerado um novo arquivo.
+No container é armazenado um arquivo .json de forma incremental. Sempre que o houver uma nova integração com o IoT Hub, será processado pelo Stream Analytics Job até chegar aqui.
 ![image](https://user-images.githubusercontent.com/42357180/160661344-7fee93fd-41cd-495b-af26-8c2d49d3a7eb.png)
 
 Visualização do arquivo json
