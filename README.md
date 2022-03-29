@@ -6,13 +6,13 @@ Conectar a placa NodeMCU v3 Esp8266 para integrar ao Azure IOT Hub e aos servic�
 
 **Componentes utilizados:**
 + Device: Placa NodeMCU ESP8266
-+ Potênciometro
++ Potenciômetro
 
 **Cenário**
 
 ![image](https://user-images.githubusercontent.com/42357180/160649317-bd5b9dd5-f8dc-4881-b169-b752374759bd.png)
 
-**Considerações:**
+**Importante:**
 
 Para executar este lab é aconselhável que tenha familiaridade com a Azure para as configurações abaixo.
 
@@ -44,8 +44,17 @@ Para executar este lab é aconselhável que tenha familiaridade com a Azure para
     + **AzureIoTHubLabDemo1.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
     + **config.h** - arquivo com as configurações: nesse arquivo é adicionar a connection string do Device do IoT Hub criado, dados de acesso a rede wi-fi, pino de comunicação com a placa nodeMCU, etc.
     + **iotHubClient.ino** - contém método que dispara a mensagem para Azure IoT Hub.
-    + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando um potenciomentro como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
+    + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando um potenciômetro como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
 
+## Ligação dos pinos do potenciômetro a placa NodeMCU Esp8266
+
+![image](https://user-images.githubusercontent.com/42357180/160703173-52e9c572-935d-43ce-9d7e-861969ff8d12.png)
+
+**Explicação pinos:**
+
++ Primeiro pino "entrada de sinal" é ligado o VCC(5 volts) na porta VIN.
++ Segundo pino "saída do sinal" ou "output" ligado a porta analógica "A0".
++ Terceiro pino "terra" ligado a porta GND.
 
 ## Execução do projeto Arduino com a placa NodeMCU
 
@@ -90,7 +99,7 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 **Visualização do arquivo json**
 ![image](https://user-images.githubusercontent.com/42357180/160664235-ebaea27f-114b-448a-93f7-9d0c86eddc7b.png)
 
-**A coluna Valor** - é o dado que vem do potenciomentro ligado a placa NodeMCU, a cada movimento que faço no potenciometro a cada 3 segundos é enviado um novo valor.
+**A coluna Valor** - é o dado que vem do potenciômetro ligado a placa NodeMCU, a cada movimento que faço no potenciômetro a cada 3 segundos é enviado um novo valor.
 
 **Observações**
 
