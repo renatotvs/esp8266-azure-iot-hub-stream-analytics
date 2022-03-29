@@ -74,18 +74,20 @@ Para executar este lab é aconselhável que tenha familiaridade com a Azure para
 ## Acompanhamento da integração com IoT Hub
 
 **IoT Hub**
+
 ![image](https://user-images.githubusercontent.com/42357180/160660183-64d0b0ab-516d-43a7-9b8f-40228696e629.png)
 
 **Stream Analytics**
-Nesse painel é possível acompanhar em tempo real os eventos.
-Abaixo mostra o número de eventos lidos e integradas ao blob storage.
+
+No painel abaixo é possível acompanhar em tempo real os eventos processados e integradas ao blob storage.
 ![image](https://user-images.githubusercontent.com/42357180/160661942-2bf770f0-9d06-4bb5-963c-777f8be36767.png)
 
 **Container Blob Storage**
+
 No container é armazenado um arquivo .json de forma incremental. Sempre que o houver uma nova integração com o IoT Hub, será processado pelo Stream Analytics o envio dos dados ao container do blob storage.
 ![image](https://user-images.githubusercontent.com/42357180/160661344-7fee93fd-41cd-495b-af26-8c2d49d3a7eb.png)
 
-Visualização do arquivo json
+**Visualização do arquivo json**
 ![image](https://user-images.githubusercontent.com/42357180/160664235-ebaea27f-114b-448a-93f7-9d0c86eddc7b.png)
 
 **A coluna Valor** - é o valor que vem do potenciomentro ligado a placa NodeMCU, a cada movimento que faço no potenciometro a cada 3 segundos é enviado um novo valor.
