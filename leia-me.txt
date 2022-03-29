@@ -3,24 +3,24 @@ Caso utilize a bibloteca AzureUoTHub.h, é necessário fazer as seguintes altera
 	1) Alterar o parâmetro "build.extra_flags" no arquivo platform.txt
 
 Que fica na instação do esp8266:
+C:\Users\seu_usuario\AppData\Local\VersaoArduino\packages\esp8266\hardware\esp8266\2.7.4
+
+No meu caso 
 C:\Users\r.tavares.da.silva\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4
 
-Ficaria assim:
-# This can be overriden in boards.txt
-build.extra_flags= -DDONT_USE_UPLOADTOBLOB -DUSE_BALTIMORE_CERT
+
+trecho para alteração:
+build.extra_flags= -DDONT_USE_UPLOADTOBLOB
 # build.extra_flags=-DESP8266
 
-Links que explicam isso:
+Alguns links que explicam isso:
 	• https://github.com/Azure/azure-iot-pal-arduino/issues/9
 	• https://github.com/Azure/azure-iot-arduino/issues/101
 
-	2) Comentar parâmetro que causa erro: round(x) 
-	C:\Users\r.tavares.da.silva\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\cores\esp8266\Arduino.h
-	
-	// #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
+2) Comentar parâmetro que causa erro: round(x) 
+C:\Users\r.tavares.da.silva\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\cores\esp8266\Arduino.h
+
+// #define round(x)     ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
 	
 Links que explicam sobre isso:
 https://github.com/esp8266/Arduino/issues/5787
-
-
-https://github.com/Azure/azure-iot-arduino/blob/master/examples/esp8266/iothub_ll_telemetry_sample/platform.local.txt
