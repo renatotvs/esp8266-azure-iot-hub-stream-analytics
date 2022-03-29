@@ -90,7 +90,7 @@ No container é armazenado um arquivo .json de forma incremental. Sempre que o h
 **Visualização do arquivo json**
 ![image](https://user-images.githubusercontent.com/42357180/160664235-ebaea27f-114b-448a-93f7-9d0c86eddc7b.png)
 
-**A coluna Valor** - é o valor que vem do potenciomentro ligado a placa NodeMCU, a cada movimento que faço no potenciometro a cada 3 segundos é enviado um novo valor.
+**A coluna Valor** - é o dado que vem do potenciomentro ligado a placa NodeMCU, a cada movimento que faço no potenciometro a cada 3 segundos é enviado um novo valor.
 
 **Observações**
 
