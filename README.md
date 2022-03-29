@@ -11,15 +11,20 @@ Componentes utilizados neste laboratório:
 
 ![image](https://user-images.githubusercontent.com/42357180/160649317-bd5b9dd5-f8dc-4881-b169-b752374759bd.png)
 
-**Passo á passo - Laboratório:**
+**Considerações:**
+
+Para executar este lab é aconselhável que tenha familiaridade com a Azure para as configurações abaixo.
+
+**Configurações Azure:**
 
 1) criar recurso IoT Hub
 2) criar novo device
 3) criar recurso Stream Analytics
 4) criar recurso Blob Storage
 5) criar um novo container
-6) configurar o Stream analytics
-7) plataforma desenvolvimento - Arduino
+6) configurar o Stream analytics (entre IoT Hub e blob storage - container)
+
+**Plataforma desenvolvimento - Arduino**
   + instalar as bibliotecas para comunicação com Azure ioT Hub:
     + AzureIoTHub
     + AzureIoTProtocol_MQTT
@@ -32,10 +37,10 @@ Componentes utilizados neste laboratório:
   Garantir que as bibliotecas acima estejam instaladas.
   
   + Resumo arquivos do laboratório:
-    + **AzureIoTHubLabDemo1.ino** -  arquivo principal deste laboratório que efetua a conexão com wifi da rede configurada e partir daí comunica com as demais partes.
-    + **config.h** - arquivo com as configurações: connection string com ioT Hub, dados de acesso ao wifi, pino de comunicação com a placa nodeMCU, etc.
-    + **iotHubClient.ino** - arquivo que dispara a mensagem para Azure IoT Hub.
-    + **message.ino** - arquivo que chama a funcionalidade de leitura do componente configurado no pino da placa que nesse caso estamos usando o potenciomento como exemplo, poderia ser algum outro dispositivo: sensor de temperatura, humidade, etc.
+    + **AzureIoTHubLabDemo1.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
+    + **config.h** - arquivo com as configurações: nesse arquivo é preciso configurar a connection string do Device no IoT Hub, dados de acesso a wifi, pino de comunicação com a placa nodeMCU, etc.
+    + **iotHubClient.ino** - contém método que dispara a mensagem para Azure IoT Hub.
+    + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando o potenciomento como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
 
 
 ## Reultados após executar o projeto no Arduino com a placa NodeMCU
