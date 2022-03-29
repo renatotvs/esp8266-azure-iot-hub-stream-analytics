@@ -44,7 +44,31 @@ Para executar este lab é aconselhável que tenha familiaridade com a Azure para
     + **message.ino** - contém método que efetua leitura do componente configurado no pino da placa que nesse caso estamos usando o potenciomento como exemplo, poderia ser usado algum outro dispositivo: sensor de temperatura, umidade, etc.
 
 
-## Reultados após executar o projeto no Arduino com a placa NodeMCU
+## Execução do projeto Arduino com a placa NodeMCU
+
++ Configurar a placa e porta para execução:
+
+![image](https://user-images.githubusercontent.com/42357180/160689100-543ab7ad-78a1-4057-b45a-d86424398301.png)
+
+![image](https://user-images.githubusercontent.com/42357180/160690332-089e5349-ec66-484b-99b4-1d03dc45180c.png)
+
+
++ Fazer upload do código para a placa:
+
+![image](https://user-images.githubusercontent.com/42357180/160687722-8204f460-9d22-4763-bcad-ec48f8e3ddda.png)
+
++ Acompanhamento do processo do upload do código antes de conectar a rede wifi:
+
+![image](https://user-images.githubusercontent.com/42357180/160689507-d16c27bd-30a2-42f3-b581-a36c44ebba32.png)
+
++ Visualizar a execução pelo "Serial Monitor" e o momento que a placa é conectado a rede wi-fi:
+
+![image](https://user-images.githubusercontent.com/42357180/160686634-301440b5-d08a-4bc0-8580-72ee7e6a5dc7.png)
+
+![image](https://user-images.githubusercontent.com/42357180/160691272-7707dae7-ae09-4205-b1db-54ad877faf55.png)
+
+
+## Acompanhamento da integração com IoT Hub
 
 **IoT Hub**
 ![image](https://user-images.githubusercontent.com/42357180/160660183-64d0b0ab-516d-43a7-9b8f-40228696e629.png)
