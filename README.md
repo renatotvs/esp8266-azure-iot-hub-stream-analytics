@@ -14,7 +14,7 @@ Conectar a placa NodeMCU v3 Esp8266 para integrar ao Azure IOT Hub e aos serviç
 
 **Importante:**
 
-Para executar este lab é aconselhável que tenha familiaridade com a Azure para as configurações abaixo.
+Para executar este lab é aconselhável que tenha boa familiaridade com a Azure para as configurações abaixo.
 
 **Configurações Azure:**
 
