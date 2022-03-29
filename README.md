@@ -37,7 +37,7 @@ Para executar este lab é aconselhável que tenha familiaridade com a Azure para
   
   Garantir que as bibliotecas acima estejam instaladas.
   
-  Antes de executar demais etapas no Arduino é preciso efetuar algumas modificações no ambiente de desenvolvimento:
+  Antes de executar demais etapas no Arduino é necessário efetuar algumas modificações no ambiente de desenvolvimento (essa etapa evita que tenha erros futuros na execução do projeto): 
   https://github.com/renatotvs/esp8266-azure-iot-hub-stream-analytics/blob/main/leia-me.txt
   
   + Resumo arquivos do laboratório:
