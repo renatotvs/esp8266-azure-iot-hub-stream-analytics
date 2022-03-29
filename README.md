@@ -4,7 +4,7 @@
 
 Conectar a placa NodeMCU v3 Esp8266 para integrar ao Azure IOT Hub e aos servicços Stream Analytics e Azure Blob Storage.
 
-Componentes utilizados neste laboratório:
+**Componentes utilizados:**
 + Device: Placa NodeMCU ESP8266
 + Potênciometro
 
