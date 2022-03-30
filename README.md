@@ -84,7 +84,7 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 
 ![image](https://user-images.githubusercontent.com/42357180/160691272-7707dae7-ae09-4205-b1db-54ad877faf55.png)
 
-Na imagem acima é possível ver que foi enviado mensagens ao IoT Hub.
+A imagem acima mostra quando o wi-fi foi estabelecido com sucesso o processo enviou mensagens ao IoT Hub.
 
 ## Acompanhamento da integração com IoT Hub
 
