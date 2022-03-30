@@ -40,7 +40,8 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
   Antes de executar demais etapas no Arduino é necessário efetuar algumas modificações no ambiente de desenvolvimento (essa etapa evita que tenha erros futuros na execução do projeto): 
   https://github.com/renatotvs/esp8266-azure-iot-hub-stream-analytics/blob/main/leia-me.txt
   
-  + Resumo arquivos do laboratório:
+  + **Arquivos:**
+  
     + **AzureIoTHubLabDemo1.ino** -  arquivo principal que efetua a conexão com wifi da rede configurada e executa o envio da mensagem ao IoT Hub.
     + **config.h** - arquivo com as configurações: nesse arquivo é adicionar a connection string do Device do IoT Hub criado, dados de acesso a rede wi-fi, pino de comunicação com a placa nodeMCU, etc.
     + **iotHubClient.ino** - contém método que dispara a mensagem para Azure IoT Hub.
