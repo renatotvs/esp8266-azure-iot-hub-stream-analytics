@@ -25,7 +25,7 @@ Para executar este lab é aconselhável que tenha boa familiaridade com a Azure 
 5) criar um novo container
 6) configurar o Stream analytics (entre IoT Hub e blob storage - container)
 
-**Plataforma desenvolvimento - Arduino**
+**Plataforma desenvolvimento - Arduino IDE**
   + instalar as bibliotecas para comunicação com Azure ioT Hub:
     + AzureIoTHub
     + AzureIoTProtocol_MQTT
