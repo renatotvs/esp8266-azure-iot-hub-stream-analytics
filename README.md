@@ -1,4 +1,4 @@
-# LAB: NodeMCU ESP8266 - Azure IoT Hub, Stream Analytics e Blob Storage
+# LAB 1: NodeMCU ESP8266 - Azure IoT Hub, Stream Analytics e Blob Storage
 
 **Objetivo deste Laboratório:**
 
